@@ -14,8 +14,8 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  name: grow-and-harvest-voice-bot
-  host: grow-and-harvest-voice-bot
+  name: grow-and-harvest-bot
+  host: grow-and-harvest-bot
   disk_quota: 512M
   buildpack: https://github.com/cloudfoundry/python-buildpack.git
   random-route: false
