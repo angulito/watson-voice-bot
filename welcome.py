@@ -92,6 +92,8 @@ def getConvResponse():
             'version': '2018-09-20',
             'username': assistantUsername,
             'password': assistantPassword,
+            # 'language': 'es-ES',
+            'voice': 'es-ES_EnriqueVoice',
             'iam_apikey': assistantIAMKey,
             'url': assistantUrl
         }
@@ -124,6 +126,8 @@ def getSpeechFromText():
             'username': textToSpeechUser,
             'password': textToSpeechPassword,
             'iam_apikey': textToSpeechIAMKey,
+            # 'language': 'es-ES',
+            'voice': 'es-ES_EnriqueVoice',
             'url': textToSpeechUrl
     }
 
@@ -149,6 +153,8 @@ def getTextFromSpeech():
             'username': speechToTextUser,
             'password': speechToTextPassword,
             'iam_apikey': speechToTextIAMKey,
+            # 'language': 'es-ES',
+            'voice': 'es-ES_EnriqueVoice',
             'url': speechToTextUrl
     }
 
